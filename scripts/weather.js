@@ -8,7 +8,7 @@ document.querySelector(".get-weather-btn").addEventListener("click", () => {
   });
 
   async function getWeather(location) {
-    const apiKey = "d092c5884674ac68f4458dec01b41e81";
+    const apiKey = "ApiKey";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
 
     try {
